@@ -1,12 +1,14 @@
 // import logo from './logo.svg';
 import './App.css';
-import NavBarSimple from './components/NavBarSimple';
 import React from "react";
+import EventsClass from './components/EventsClass';
+import EventsFunctional from './components/EventsFunctional';
 
 function App() {
   return (
     <div className="App">
-      <NavBarSimple />
+      <EventsFunctional />
+      <EventsClass />
     </div>
   );
 }
