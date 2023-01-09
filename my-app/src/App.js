@@ -1,16 +1,12 @@
 // import logo from './logo.svg';
-import './App.css';
 import React from "react";
-import ConditionalRenderingClass from './components/ConditionalRenderingClass';
-import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
+import "./App.css";
+import LifeCyclesCWU from "./components/LifeCyclesCWU";
 
 function App() {
-  return (
-    <div className="App">
-      <ConditionalRenderingClass />
-      <ConditionalRenderingFunctional connected={true} />
-    </div>
-  );
+  return <div className="App">
+      <LifeCyclesCWU />
+    </div>;
 }
 
 export default App;
