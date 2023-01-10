@@ -24,6 +24,7 @@ export class UncontrolledForm extends Component {
                             id="id-name"
                             name="name"
                             type="text"
+                            defaultValue="John Smith"
                             ref={this.inputName}
                         />
                     </div>
