@@ -1,13 +1,13 @@
 // import logo from './logo.svg';
 import React from "react";
 import "./App.css";
-import UseEffectCounter from "./components/UseEffectCounter";
+import UseEffectCounterContainer from "./components/UseEffectCounterContainer";
 
 function App() {
   return (
     <div className="App">
       {/* Add your components here */}
-      <UseEffectCounter />
+      <UseEffectCounterContainer />
     </div>
   );
 }
