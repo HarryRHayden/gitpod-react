@@ -1,13 +1,13 @@
 // import logo from './logo.svg';
 import React from "react";
 import "./App.css";
-import UseStateWithObjects from "./components/UseStateWithObjects";
+import UseEffectCounter from "./components/UseEffectCounter";
 
 function App() {
   return (
     <div className="App">
       {/* Add your components here */}
-      <UseStateWithObjects />
+      <UseEffectCounter />
     </div>
   );
 }
